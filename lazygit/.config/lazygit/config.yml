@@ -3,6 +3,7 @@ gui:
   nerdFontsVersion: "3"
   border: rounded
   sidePanelWidth: 0.25
+  statusPanelView: allBranchesLog
   theme:
     activeBorderColor:
       - green
