@@ -1,2 +1,4 @@
 theme = Monokai Soda
 keybind = shift+enter=text:\n
+cursor-style = bar
+cursor-style-blink = true
