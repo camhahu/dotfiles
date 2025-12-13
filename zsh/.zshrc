@@ -80,7 +80,11 @@ alias lg=lazygit
 alias oc=opencode
 alias dotfiles="cd $HOME/Documents/Projects/_dotfiles && opencode"
 
+# Auto suggestions
+# Installed from here: https://github.com/zsh-users/zsh-autosuggestions/blob/master/INSTALL.md
+source $(brew --prefix)/share/zsh-autosuggestions/zsh-autosuggestions.zsh
 
+# Terminal command syntax highlighting
 # Must be at the end of zshrc
 # Installed from here: https://github.com/zsh-users/zsh-syntax-highlighting/blob/master/INSTALL.md
 source /opt/homebrew/share/zsh-syntax-highlighting/zsh-syntax-highlighting.zsh
