@@ -2,6 +2,7 @@ gui:
   showRandomTip: false
   nerdFontsVersion: "3"
   border: rounded
+  sidePanelWidth: 0.25
   theme:
     activeBorderColor:
       - green
