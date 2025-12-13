@@ -1,0 +1,14 @@
+[credential]
+	helper = 
+	helper = /usr/local/share/gcm-core/git-credential-manager
+[credential "https://dev.azure.com"]
+	useHttpPath = true
+[user]
+	name = Cameron Harder-Hutton
+	email = cameron@harderhutton.dev
+[color]
+	ui = auto
+[core]
+	pager = less -FRSX
+[alias]
+	l = log --graph --decorate --abbrev-commit --pretty=format:'%C(auto)%h %C(bold blue)%an%Creset %C(green)%ar%Creset %s %C(dim white)%d%Creset'
