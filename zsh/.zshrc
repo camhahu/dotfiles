@@ -20,7 +20,7 @@ export EDITOR=nvim
 export ZSH="$HOME/.oh-my-zsh"
 
 
-alias cr='/Users/camhahu/github-like-amazon.sh'
+alias cr="$HOME/github-like-amazon.sh"
 
 
 plugins=(git)
@@ -31,7 +31,7 @@ source $ZSH/oh-my-zsh.sh
 alias sauce="source ~/.zshrc"
 alias zshrc="$EDITOR ~/.zshrc"
 alias wp="cd ~/Documents/Projects"
-alias terminal-config="$EDITOR /Users/camhahu/.config/ghostty/config"
+alias terminal-config="$EDITOR $HOME/.config/ghostty/config"
 alias termconf="terminal-config"
 alias tmuxconf="$EDITOR ~/.tmux.conf"
 
@@ -42,18 +42,18 @@ alias tns='tmux new -s'
 alias tas='tmux attach -t'
 alias tks='tmux kill-session -t'
 
-alias wpfh='/Users/camhahu/Documents/Projects/fluent-how'
-alias elag='/Users/camhahu/Documents/Projects/agent-repos/enhance-labs'
+alias wpfh="$HOME/Documents/Projects/fluent-how"
+alias elag="$HOME/Documents/Projects/agent-repos/enhance-labs"
 # Bat is better than Cat for viewing files
 
-alias rungs="/Users/camhahu/Documents/Projects/rungs/bin/rungs"
-alias gurl="/Users/camhahu/Documents/Projects/gurl/bin/gurl"
+alias rungs="$HOME/Documents/Projects/rungs/bin/rungs"
+alias gurl="$HOME/Documents/Projects/gurl/bin/gurl"
 
 
 
 
 # pnpm
-export PNPM_HOME="/Users/camhahu/Library/pnpm"
+export PNPM_HOME="$HOME/Library/pnpm"
 case ":$PATH:" in
   *":$PNPM_HOME:"*) ;;
   *) export PATH="$PNPM_HOME:$PATH" ;;
@@ -69,12 +69,13 @@ eval "$(~/.local/bin/mise activate zsh)"
 alias nvimrc="nvim ~/.config/nvim/"
 
 # opencode
-export PATH=/Users/camhahu/.opencode/bin:$PATH
+export PATH="$HOME/.opencode/bin:$PATH"
 
 # bun completions
-[ -s "/Users/camhahu/.bun/_bun" ] && source "/Users/camhahu/.bun/_bun"
+[ -s "$HOME/.bun/_bun" ] && source "$HOME/.bun/_bun"
 
 
-alias occ="nvim /Users/camhahu/.config/opencode/command"
+alias occ="nvim $HOME/.config/opencode/command"
 alias lg=lazygit
 alias oc=opencode
+alias dotfiles="cd $HOME/Documents/Projects/_dotfiles && opencode"
