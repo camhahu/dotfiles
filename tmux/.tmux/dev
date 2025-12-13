@@ -1,0 +1,8 @@
+# Create 4 windows with predefined names
+new-window -n server
+new-window -n opencode
+new-window -n git
+new-window -n terminal
+
+# Go back to the first window (server)
+select-window -t server
