@@ -28,12 +28,15 @@ plugins=(git)
 source $ZSH/oh-my-zsh.sh
 
 
+# Dotfiles location
+export DOTFILES="$HOME/Documents/Projects/_dotfiles"
+
 alias sauce="source ~/.zshrc"
-alias zshrc="$EDITOR ~/.zshrc"
+alias zshrc="$EDITOR $DOTFILES/zsh/.zshrc"
 alias wp="cd ~/Documents/Projects"
-alias terminal-config="$EDITOR $HOME/.config/ghostty/config"
+alias terminal-config="$EDITOR $DOTFILES/ghostty/.config/ghostty/config"
 alias termconf="terminal-config"
-alias tmuxconf="$EDITOR ~/.tmux.conf"
+alias tmuxconf="$EDITOR $DOTFILES/tmux/.tmux.conf"
 
 # tmux
 # tmux aliases
@@ -75,10 +78,10 @@ export PATH="$HOME/.opencode/bin:$PATH"
 [ -s "$HOME/.bun/_bun" ] && source "$HOME/.bun/_bun"
 
 
-alias occ="nvim $HOME/.config/opencode/command"
+alias occ="nvim $DOTFILES/opencode/.config/opencode/command"
 alias lg=lazygit
 alias oc=opencode
-alias dotfiles="cd $HOME/Documents/Projects/_dotfiles && opencode"
+alias dotfiles="cd $DOTFILES && opencode"
 alias please='sudo $(fc -ln -1)'
 
 # Auto suggestions
