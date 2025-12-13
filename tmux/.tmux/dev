@@ -1,8 +1,12 @@
-# Create 4 windows with predefined names
-new-window -n server
+# Rename current window to server, create the rest
+rename-window server
 new-window -n opencode
 new-window -n git
 new-window -n terminal
+
+# Run commands in specific windows
+send-keys -t opencode 'opencode' Enter
+send-keys -t git 'lazygit' Enter
 
 # Go back to the first window (server)
 select-window -t server
