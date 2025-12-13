@@ -1,0 +1,10 @@
+gui:
+  showRandomTip: false
+  nerdFontsVersion: "3"
+  border: rounded
+  theme:
+    activeBorderColor:
+      - green
+      - bold
+    inactiveBorderColor:
+      - white
