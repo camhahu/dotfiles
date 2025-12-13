@@ -79,6 +79,7 @@ alias occ="nvim $HOME/.config/opencode/command"
 alias lg=lazygit
 alias oc=opencode
 alias dotfiles="cd $HOME/Documents/Projects/_dotfiles && opencode"
+alias please='sudo $(fc -ln -1)'
 
 # Auto suggestions
 # Installed from here: https://github.com/zsh-users/zsh-autosuggestions/blob/master/INSTALL.md
