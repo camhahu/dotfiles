@@ -1,0 +1,3 @@
+# Create opencode window and run opencode
+new-window -n opencode
+send-keys 'opencode' Enter
