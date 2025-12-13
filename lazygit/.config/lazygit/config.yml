@@ -8,3 +8,8 @@ gui:
       - bold
     inactiveBorderColor:
       - white
+
+git:
+  pagers:
+    - pager: delta --dark --paging=never --hunk-header-style=omit --file-decoration-style=none --file-style=omit --line-numbers --keep-plus-minus-markers --syntax-theme="Visual Studio Dark+"
+  diffContextSize: 15
