@@ -13,5 +13,5 @@ gui:
 
 git:
   pagers:
-    - pager: delta --dark --paging=never --hunk-header-style=omit --file-decoration-style=none --file-style=omit --line-numbers --line-numbers-left-format="{nm:>4} " --line-numbers-right-format="{np:>4} " --line-numbers-left-style="" --line-numbers-right-style="" --line-numbers-minus-style="" --line-numbers-plus-style="" --line-numbers-zero-style="" --keep-plus-minus-markers --syntax-theme="Visual Studio Dark+" --side-by-side
+    - pager: delta
   diffContextSize: 15
