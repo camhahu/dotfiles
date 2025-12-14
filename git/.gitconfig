@@ -13,9 +13,10 @@
 [delta]
 	dark = true
 	paging = never
-	hunk-header-style = omit
+	hunk-header-style = syntax
+	hunk-header-decoration-style = none
 	file-decoration-style = none
-	file-style = omit
+	file-style = yellow bold
 	line-numbers = true
 	line-numbers-left-format = "{nm:>4} "
 	line-numbers-right-format = "{np:>4} "
