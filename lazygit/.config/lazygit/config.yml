@@ -6,7 +6,7 @@ gui:
   statusPanelView: allBranchesLog
   theme:
     activeBorderColor:
-      - green
+      - "#ffff00"
       - bold
     inactiveBorderColor:
       - white
