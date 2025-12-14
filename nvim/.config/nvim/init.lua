@@ -989,9 +989,13 @@ require('lazy').setup({
       -- set use_icons to true if you have a Nerd Font
       statusline.setup { use_icons = vim.g.have_nerd_font }
 
-      -- You can configure sections in the statusline by overriding their
-      -- default behavior. For example, here we set the section for
-      -- cursor location to LINE:COLUMN
+      -- Show filepath relative to cwd
+      ---@diagnostic disable-next-line: duplicate-set-field
+      statusline.section_filename = function()
+        return vim.fn.fnamemodify(vim.fn.expand '%', ':.')
+      end
+
+      -- Cursor location as LINE:COLUMN
       ---@diagnostic disable-next-line: duplicate-set-field
       statusline.section_location = function()
         return '%2l:%-2v'
