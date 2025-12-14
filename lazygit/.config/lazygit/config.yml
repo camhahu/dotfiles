@@ -10,8 +10,11 @@ gui:
       - bold
     inactiveBorderColor:
       - white
-
 git:
   pagers:
-    - pager: delta
+    - pager: delta --paging=never
   diffContextSize: 15
+keybinding:
+  universal:
+    goInto: '<disabled>'
+    focusMainView: '<enter>'
