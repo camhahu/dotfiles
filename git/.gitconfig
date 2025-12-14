@@ -35,3 +35,9 @@
 [alias]
 	l = log --graph --decorate --abbrev-commit --pretty=format:'%C(auto)%h %C(bold blue)%an%Creset %C(green)%ar%Creset %s %C(dim white)%d%Creset'
 	co = checkout
+[pull]
+	rebase = true
+[push]
+	autoSetupRemote = true
+[branch]
+	sort = -committerdate
