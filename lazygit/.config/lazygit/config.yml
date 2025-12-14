@@ -4,6 +4,7 @@ gui:
   border: rounded
   sidePanelWidth: 0.25
   statusPanelView: allBranchesLog
+  showFileTree: false
   theme:
     activeBorderColor:
       - "#ffff00"
