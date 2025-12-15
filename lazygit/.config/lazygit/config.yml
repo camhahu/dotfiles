@@ -1,5 +1,6 @@
 gui:
   showRandomTip: false
+  commitHashLength: 0
   nerdFontsVersion: "3"
   border: rounded
   sidePanelWidth: 0.2
