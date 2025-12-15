@@ -87,6 +87,10 @@ alias oc=opencode
 alias dotfiles="cd $DOTFILES && opencode"
 alias please='sudo $(fc -ln -1)'
 
+# Port utilities
+port() { lsof -i :$1 }
+killport() { lsof -ti :$1 | xargs kill -9 }
+
 # Auto suggestions
 # Installed from here: https://github.com/zsh-users/zsh-autosuggestions/blob/master/INSTALL.md
 source $(brew --prefix)/share/zsh-autosuggestions/zsh-autosuggestions.zsh
