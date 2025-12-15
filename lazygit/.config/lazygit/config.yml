@@ -2,7 +2,7 @@ gui:
   showRandomTip: false
   nerdFontsVersion: "3"
   border: rounded
-  sidePanelWidth: 0.25
+  sidePanelWidth: 0.2
   statusPanelView: allBranchesLog
   showFileTree: false
   theme:
