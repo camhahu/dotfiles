@@ -35,7 +35,7 @@
 	minus-style = syntax "#450a0a"
 	minus-emph-style = syntax "#ff3366"
 	plus-style = syntax "#0d4429"
-	plus-emph-style = syntax "#00ff66"
+	plus-emph-style = syntax "#22885a"
 
 [alias]
 	l = log --graph --decorate --abbrev-commit --pretty=format:'%C(auto)%h %C(bold blue)%an%Creset %C(green)%ar%Creset %s %C(dim white)%d%Creset'
