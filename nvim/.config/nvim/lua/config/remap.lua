@@ -1,5 +1,10 @@
 -- File explorer
-vim.keymap.set("n", "-", "<CMD>Oil<CR>", { desc = "Open parent directory" })
+vim.keymap.set("n", "-", function()
+    require("oil").open_float()
+end, { desc = "Open parent directory (float)" })
+vim.keymap.set("n", "<leader>-", function()
+    require("oil").open_float(vim.fn.getcwd())
+end, { desc = "Open working directory (float)" })
 
 -- Buffer management
 vim.keymap.set("n", "<leader>w", "<cmd>bdelete<cr>", { desc = "Delete buffer" })
