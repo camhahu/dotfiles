@@ -72,7 +72,7 @@ export GOOGLE_CLOUD_PROJECT="vertical-web-464104-t5"
 # Mise (Version Management)
 eval "$(~/.local/bin/mise activate zsh)"
 
-alias nvimrc="nvim ~/.config/nvim/"
+alias nvimrc="nvim $DOTFILES/nvim/.config/nvim/"
 alias n="nvim ."
 
 # opencode
