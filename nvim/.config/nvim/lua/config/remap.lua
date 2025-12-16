@@ -7,6 +7,8 @@ vim.keymap.set("n", "<leader>-", function()
 end, { desc = "Open working directory (float)" })
 
 -- Buffer management
+vim.keymap.set("n", "<Tab>", "<cmd>bnext<cr>", { desc = "Next buffer" })
+vim.keymap.set("n", "<S-Tab>", "<cmd>bprev<cr>", { desc = "Previous buffer" })
 vim.keymap.set("n", "<leader>w", "<cmd>bdelete<cr>", { desc = "Delete buffer" })
 
 -- Clear search highlights
