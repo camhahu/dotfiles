@@ -73,6 +73,7 @@ export GOOGLE_CLOUD_PROJECT="vertical-web-464104-t5"
 eval "$(~/.local/bin/mise activate zsh)"
 
 alias nvimrc="nvim ~/.config/nvim/"
+alias n="nvim ."
 
 # opencode
 export PATH="$HOME/.opencode/bin:$PATH"
