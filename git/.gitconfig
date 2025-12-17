@@ -40,6 +40,7 @@
 [alias]
 	l = log --graph --decorate --abbrev-commit --pretty=format:'%C(auto)%h %C(bold blue)%an%Creset %C(green)%ar%Creset %s %C(dim white)%d%Creset'
 	co = checkout
+	uncommit = reset --soft HEAD~1
 [pull]
 	rebase = true
 [push]
