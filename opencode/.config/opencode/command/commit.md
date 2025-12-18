@@ -6,6 +6,8 @@ model: opencode/big-pickle
 
 Check the currently staged files and commit them. If there are no staged changes do nothing and return.
 
+Do not stage anything new.
+
 Create an appropriate commit message
 
 -   First line is a concise summary starting with a verb
@@ -22,5 +24,3 @@ Here is the current git status (from `git status`):
 Here are recent commit messages (from `git log --oneline -10`):
 !`git log --oneline -10`
 
-Here is the current staged diff (from `git diff --cached`):
-!`git diff --cached`
