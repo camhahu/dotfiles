@@ -1,7 +1,7 @@
 ---
 description: Commit the currently staged changes
 subtask: false
-model: opencode/big-pickle
+model: opencode/gemini-3-flash
 ---
 
 Check the currently staged files and commit them. If there are no staged changes do nothing and return.
