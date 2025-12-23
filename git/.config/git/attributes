@@ -1,0 +1,19 @@
+# Auto detect text files and perform LF normalization
+* text=auto
+
+# Documents
+*.md text diff=markdown
+*.txt text
+
+# Scripts
+*.sh text eol=lf
+
+# Config files
+*.json text
+*.yaml text
+*.yml text
+*.toml text
+
+# Ignore generated files in diffs
+*.lock binary
+package-lock.json binary
