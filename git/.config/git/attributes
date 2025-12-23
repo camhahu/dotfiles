@@ -16,4 +16,5 @@
 
 # Ignore generated files in diffs
 *.lock binary
+*.lockb binary diff=lockb
 package-lock.json binary
