@@ -17,6 +17,7 @@ Create an appropriate commit message
     -   Prefer to explain WHY something was done from an end user perspective instead of WHAT was done
     -   Do not include generic messages like "improved agent experience" be very specific about what user facing changes were made
     -   Do not state obvious things
+-   Avoid adjectives
 
 Here is the current git status (from `git status`):
 !`git status`
