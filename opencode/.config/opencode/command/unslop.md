@@ -24,9 +24,5 @@ This project prefers:
 
 - self documenting code
 
-Here are the current changes:
-
-!`git diff HEAD`
-
 Read the source files and similar files to get the correct context.
 
