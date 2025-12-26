@@ -1,60 +1,34 @@
 # Starship Configuration
 # https://starship.rs/config/
 
-# Disable blank line between prompts
 add_newline = false
 
-# Prompt format
 format = """
 $directory\
 $git_branch\
 $git_status\
-$nodejs\
-$bun\
-$python\
-$rust\
-$golang\
 $cmd_duration\
-$line_break\
 $character"""
 
 [character]
-success_symbol = '[❯](bold green)'
-error_symbol = '[❯](bold red)'
+success_symbol = ' [\$](white)'
+error_symbol = ' [\$](red)'
 
 [directory]
 truncation_length = 3
 truncate_to_repo = true
-style = 'bold cyan'
+format = '[$path]($style)'
+style = 'blue'
 
 [git_branch]
-symbol = ' '
-style = 'bold purple'
+symbol = ''
+format = ' [$branch]($style)'
+style = '243'
 
 [git_status]
-style = 'bold red'
+disabled = true
 
 [cmd_duration]
 min_time = 2000
-format = '[$duration]($style) '
-style = 'yellow'
-
-[nodejs]
-format = '[$symbol($version )]($style)'
-symbol = ' '
-
-[bun]
-format = '[$symbol($version )]($style)'
-symbol = '🥟 '
-
-[python]
-format = '[$symbol($version )]($style)'
-symbol = ' '
-
-[rust]
-format = '[$symbol($version )]($style)'
-symbol = ' '
-
-[golang]
-format = '[$symbol($version )]($style)'
-symbol = ' '
+format = ' [$duration]($style)'
+style = '243'
