@@ -85,6 +85,7 @@ export PATH="$HOME/.opencode/bin:$PATH"
 alias occ="nvim $DOTFILES/opencode/.config/opencode/command"
 alias lg=lazygit
 alias oc=opencode
+alias commit="opencode run --command commit"
 alias dotfiles="cd $DOTFILES && opencode"
 alias please='sudo $(fc -ln -1)'
 
