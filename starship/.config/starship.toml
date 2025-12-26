@@ -15,7 +15,7 @@ error_symbol = ' [\$](red)'
 [username]
 show_always = true
 format = '[$user]($style) | '
-style = '243'
+style_user = '243'
 
 [directory]
 truncation_length = 3
