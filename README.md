@@ -1,5 +1,7 @@
 # Dotfiles
 
+Always use `--no-folding` with stow since `~/.config` is a real directory, not a symlink.
+
 Adding new dotfiles:
 
 1. Create a directory, e.g. `ghostty`
