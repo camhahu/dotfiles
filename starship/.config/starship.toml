@@ -9,16 +9,16 @@ $directory\
 $character"""
 
 [character]
-success_symbol = ' [\$](white)'
-error_symbol = ' [\$](red)'
+success_symbol = ' [\$](bold white)'
+error_symbol = ' [\$](bold red)'
 
 [username]
 show_always = true
 format = '[$user]($style) | '
-style_user = '243'
+style_user = 'bold 243'
 
 [directory]
 truncation_length = 3
 truncate_to_repo = true
 format = '[$path]($style)'
-style = 'blue'
+style = 'bold blue'
