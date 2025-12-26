@@ -1,7 +1,7 @@
 ---
 description: Commit the currently staged changes
 subtask: false
-model: opencode/glm-4.7-free
+model: opencode/glm-4.6
 ---
 
 Check the currently staged files and commit them. If there are no staged changes do nothing and return.
