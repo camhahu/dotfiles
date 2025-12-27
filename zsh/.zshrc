@@ -115,3 +115,6 @@ if [ -f '/Users/camhahu/google-cloud-sdk/path.zsh.inc' ]; then . '/Users/camhahu
 if [ -f '/Users/camhahu/google-cloud-sdk/completion.zsh.inc' ]; then . '/Users/camhahu/google-cloud-sdk/completion.zsh.inc'; fi
 
 eval "$(starship init zsh)"
+
+# browser
+export PATH="/Users/camhahu/.browser/bin:$PATH"
