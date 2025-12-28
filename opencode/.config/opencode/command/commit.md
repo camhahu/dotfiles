@@ -36,3 +36,7 @@ Here is the current git status (from `git status`):
 Here are recent commit messages (from `git log --oneline -10`):
 !`git log --oneline -10`
 
+Here is optional additional context from the user:
+
+$ARGUMENTS
+
