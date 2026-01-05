@@ -88,6 +88,7 @@ alias oc=opencode
 alias commit="opencode run --command commit"
 alias dotfiles="cd $DOTFILES && opencode"
 alias please='sudo $(fc -ln -1)'
+alias pls='sudo $(fc -ln -1)'
 
 # Port utilities
 port() { lsof -i :$1 }
