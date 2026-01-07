@@ -66,9 +66,6 @@ case ":$PATH:" in
 esac
 # pnpm end
 
-# Gemini CLI
-export GOOGLE_CLOUD_PROJECT="vertical-web-464104-t5"
-
 # Mise (Version Management)
 eval "$(~/.local/bin/mise activate zsh)"
 
