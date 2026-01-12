@@ -12,6 +12,15 @@ return {
     },
     opts = {
         close_if_last_window = true,
+        enable_cursor_hijack = true, -- keep cursor on first letter of filename
+        event_handlers = {
+            {
+                event = "neo_tree_buffer_enter",
+                handler = function()
+                    vim.opt_local.cursorline = true
+                end,
+            },
+        },
         filesystem = {
             follow_current_file = { enabled = true },
             use_libuv_file_watcher = true,
