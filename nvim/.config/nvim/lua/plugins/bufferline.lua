@@ -14,7 +14,8 @@ return {
                         separator = true,
                     },
                 },
-                separator_style = "slant",
+                themable = false,
+                separator_style = "thin",
                 show_buffer_close_icons = false,
                 show_close_icon = false,
                 indicator = {
@@ -28,15 +29,25 @@ return {
                     bold = true,
                     italic = false,
                 },
-                separator = {
+                indicator_selected = {
+                    fg = "#0078d4",
+                    bg = "#0078d4",
+                },
+                indicator_visible = {
                     fg = "#1e1e1e",
                     bg = "#1e1e1e",
                 },
+                separator = {
+                    fg = "#3e3e3e",
+                    bg = "#1e1e1e",
+                },
                 separator_selected = {
-                    fg = "#1e1e1e",
+                    fg = "#3e3e3e",
+                    bg = "#0078d4",
                 },
                 separator_visible = {
-                    fg = "#1e1e1e",
+                    fg = "#3e3e3e",
+                    bg = "#1e1e1e",
                 },
                 background = {
                     fg = "#6e6e6e",
