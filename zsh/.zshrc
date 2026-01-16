@@ -116,3 +116,6 @@ eval "$(starship init zsh)"
 
 # browser
 export PATH="/Users/camhahu/.browser/bin:$PATH"
+
+# opencode
+export PATH=/Users/camhahu/.opencode/bin:$PATH
