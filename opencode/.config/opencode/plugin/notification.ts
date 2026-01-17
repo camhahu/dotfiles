@@ -9,7 +9,7 @@ export const NotificationPlugin: Plugin = async ({ $ }) => {
     },
     "tool.execute.before": async (input) => {
       if (input.tool === "question") {
-        await $`afplay /System/Library/Sounds/Glass.aiff`;
+        await $`afplay /System/Library/Sounds/Pop.aiff`;
       }
     },
   };
