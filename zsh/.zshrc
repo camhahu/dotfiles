@@ -119,3 +119,5 @@ export PATH="/Users/camhahu/.browser/bin:$PATH"
 
 # opencode
 export PATH=/Users/camhahu/.opencode/bin:$PATH
+
+source /Users/camhahu/.daytona.completion_script.zsh
