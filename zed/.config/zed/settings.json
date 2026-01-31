@@ -324,6 +324,9 @@
     //      "git_gutter": "hide"
     "git_gutter": "tracked_files"
   },
+  "git_panel": {
+    "dock": "right"
+  },
   "copilot": {
     // The set of glob patterns for which copilot should be disabled
     // in any matching file.
