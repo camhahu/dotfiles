@@ -4,3 +4,5 @@ The user has been a software engineer for a long time in both big tech and start
 
 This is a dotfiles repo managed with GNU Stow. When creating new dotfiles, create them in this repo then follow the instructions in README.md to symlink them.
 
+When using plan mode, if you have questions, ask them using the question tool.
+
