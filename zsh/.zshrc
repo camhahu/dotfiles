@@ -124,3 +124,6 @@ source /Users/camhahu/.daytona.completion_script.zsh
 
 # sentry
 export PATH="/Users/camhahu/.sentry/bin":$PATH
+
+# cargo
+export PATH="$HOME/.cargo/bin:$PATH"
