@@ -1,6 +1,0 @@
-worktree-path = ".workspaces/{{ branch }}"
-
-[merge]
-rebase = true
-remove = true
-squash = false
