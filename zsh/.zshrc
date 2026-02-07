@@ -88,6 +88,47 @@ alias please='sudo $(fc -ln -1)'
 alias pls='sudo $(fc -ln -1)'
 alias wtc='wt switch -c'
 
+feat() {
+  local feature_name="$1"
+  local window_id
+  local left_pane
+  local right_pane
+
+  if [ -z "$TMUX" ]; then
+    echo "feat: must be run inside tmux"
+    return 1
+  fi
+
+  if ! command -v wt >/dev/null 2>&1; then
+    echo "feat: wt command not found"
+    return 1
+  fi
+
+  if [ -z "$feature_name" ]; then
+    printf "Feature name: "
+    read -r feature_name
+  fi
+
+  if [ -z "$feature_name" ]; then
+    echo "feat: feature name is required"
+    return 1
+  fi
+
+  wt switch -c "$feature_name" || return $?
+
+  left_pane="$(tmux new-window -d -P -F '#{pane_id}' -n "$feature_name")" || return $?
+  window_id="$(tmux display-message -p -t "$left_pane" '#{window_id}')" || return $?
+
+  tmux set-option -w -t "$window_id" allow-passthrough off || return $?
+
+  right_pane="$(tmux split-window -d -h -t "$left_pane" -P -F '#{pane_id}')" || return $?
+
+  tmux respawn-pane -k -t "$left_pane" 'opencode' || return $?
+
+  tmux select-window -t "$window_id" || return $?
+  tmux select-pane -t "$right_pane" || return $?
+}
+
 # Port utilities
 port() { lsof -i :$1 }
 killport() { lsof -ti :$1 | xargs kill -9 }
