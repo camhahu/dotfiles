@@ -6,3 +6,5 @@ This is a dotfiles repo managed with GNU Stow. When creating new dotfiles, creat
 
 When using plan mode, if you have questions, ask them using the question tool.
 
+Do not take any actions that result in 'merge commits'. The git config is set up for this but it must be reiterated.
+
