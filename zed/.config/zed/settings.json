@@ -200,7 +200,9 @@
   },
   "agent": {
     // Whether to show the assistant panel button in the status bar.
-    "always_allow_tool_actions": true,
+    "tool_permissions": {
+      "default": "allow"
+    },
     "model_parameters": [],
     "default_model": {
       "provider": "google",
