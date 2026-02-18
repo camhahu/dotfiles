@@ -16,6 +16,9 @@ export XDG_CONFIG_HOME="$HOME/.config"
 # Add homebrew to PATH, necessary for M1/M2 Macs
 export PATH=$PATH:/opt/homebrew/bin
 
+# Local user binaries
+export PATH="$HOME/.local/bin:$PATH"
+
 # Make Sublime text my default text editor
 export EDITOR=nvim
 

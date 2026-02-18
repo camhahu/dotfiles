@@ -1,6 +1,7 @@
 // Zed settings
 {
   // The name of the Zed theme to use for the UI
+  "format_on_save": "off",
   "icon_theme": "Material Icon Theme",
   "theme": "VSCode Dark Polished",
   // The name of a base set of key bindings to use.
@@ -254,7 +255,6 @@
   // when saving it.
   "ensure_final_newline_on_save": true,
   // Whether or not to perform a buffer format before saving
-  "format_on_save": "on",
   // How to perform a buffer format. This setting can take 4 values:
   //
   // 1. Format code using the current language server:
@@ -325,6 +325,7 @@
     "git_gutter": "tracked_files"
   },
   "git_panel": {
+    "collapse_untracked_diff": false,
     "dock": "right"
   },
   "copilot": {
@@ -714,6 +715,21 @@
   },
   // LSP Specific settings.
   "lsp": {
+    "vtsls": {
+      "settings": {
+        "typescript": {
+          "updateImportsOnFileMove": {
+            "enabled": "always"
+          }
+        },
+        "javascript": {
+          "updateImportsOnFileMove": {
+            "enabled": "always"
+          }
+        }
+      },
+      "enable_lsp_tasks": true
+    },
     "oxlint": {
       "initialization_options": {
         "settings": {
