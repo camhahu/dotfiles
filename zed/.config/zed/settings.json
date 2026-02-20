@@ -158,6 +158,7 @@
   },
   "project_panel": {
     // Default width of the project panel.
+    "entry_spacing": "standard",
     "default_width": 240,
     // Where to dock project panel. Can be 'left' or 'right'.
     "dock": "right",
