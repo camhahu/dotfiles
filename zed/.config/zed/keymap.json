@@ -1,2 +1,7 @@
 [
+  {
+    "bindings": {
+      "Cmd-2": "git::Worktree"
+    }
+  }
 ]
