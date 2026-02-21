@@ -5,5 +5,11 @@
       "model": "opencode/gemini-3-flash",
       "prompt": "{file:prompts/explore.txt}"
     }
+  },
+  "permission": {
+    "external_directory": {
+      "/tmp/**": "allow",
+      "/Users/camhahu/Downloads/*": "allow"
+    }
   }
 }
