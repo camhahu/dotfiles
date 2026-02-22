@@ -28,6 +28,7 @@ export ZSH="$HOME/.oh-my-zsh"
 
 alias cr="$HOME/github-like-amazon.sh"
 
+alias cattle="/Users/camhahu/Documents/Projects/cattle.sh/packages/cli/dist/cattle"
 
 plugins=(git)
 
