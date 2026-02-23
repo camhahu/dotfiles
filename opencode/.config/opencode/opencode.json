@@ -9,7 +9,8 @@
   "permission": {
     "external_directory": {
       "/tmp/**": "allow",
-      "/Users/camhahu/Downloads/*": "allow"
+      "/Users/camhahu/Downloads/*": "allow",
+      "/Users/camhahu/Documents/Projects/*": "allow"
     }
   }
 }
