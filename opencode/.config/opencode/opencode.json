@@ -1,11 +1,5 @@
 {
   "$schema": "https://opencode.ai/config.json",
-  "agent": {
-    "explore": {
-      "model": "opencode/gemini-3-flash",
-      "prompt": "{file:prompts/explore.txt}"
-    }
-  },
   "permission": {
     "external_directory": {
       "/tmp/**": "allow",
