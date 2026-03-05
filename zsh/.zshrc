@@ -91,6 +91,7 @@ alias dotfiles="cd $DOTFILES && opencode"
 alias please='sudo $(fc -ln -1)'
 alias pls='sudo $(fc -ln -1)'
 alias wtc='wt switch -c'
+alias warden='/Users/camhahu/.bun/bin/warden'
 
 feat() {
   local feature_name="$1"
