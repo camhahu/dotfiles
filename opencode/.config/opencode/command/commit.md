@@ -1,7 +1,6 @@
 ---
 description: Commit the currently staged changes
 subtask: false
-model: opencode/claude-haiku-4-5
 ---
 
 Check the currently staged files and commit them. If there are no staged changes do nothing and return.
