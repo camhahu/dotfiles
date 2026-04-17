@@ -84,6 +84,10 @@ export PATH="$HOME/.opencode/bin:$PATH"
 
 
 alias occ="nvim $DOTFILES/opencode/.config/opencode/command"
+opencode() {
+  OPENCODE_ENABLE_EXA=1 command opencode "$@"
+}
+
 alias lg=lazygit
 alias oc=opencode
 alias commit="opencode run --command commit"
