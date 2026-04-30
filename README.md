@@ -2,6 +2,52 @@
 
 Always use `--no-folding` with stow since `~/.config` is a real directory, not a symlink.
 
+New computer setup:
+
+```sh
+open https://brew.sh
+```
+
+```sh
+xcode-select --install
+```
+
+```sh
+brew install git stow neovim tmux starship lazygit git-delta ripgrep fd mise zsh-autosuggestions zsh-syntax-highlighting
+```
+
+```sh
+brew install --cask ghostty zed sublime-text font-hack-nerd-font
+```
+
+```sh
+open https://ohmyz.sh
+```
+
+```sh
+mkdir -p ~/Documents/Projects
+```
+
+```sh
+git clone <repo-url> ~/Documents/Projects/_dotfiles
+```
+
+```sh
+cd ~/Documents/Projects/_dotfiles
+```
+
+```sh
+stow -v -t ~ --no-folding --ignore='\.DS_Store' zsh git nvim tmux starship lazygit ghostty zed opencode
+```
+
+```sh
+source ~/.zshrc
+```
+
+```sh
+ghostty +show-config
+```
+
 Adding new dotfiles:
 
 1. Create a directory, e.g. `ghostty`

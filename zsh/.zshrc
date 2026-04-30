@@ -171,8 +171,6 @@ export PATH="/Users/camhahu/.browser/bin:$PATH"
 # opencode
 export PATH=/Users/camhahu/.opencode/bin:$PATH
 
-source /Users/camhahu/.daytona.completion_script.zsh
-
 # sentry
 export PATH="/Users/camhahu/.sentry/bin":$PATH
 
@@ -180,3 +178,7 @@ export PATH="/Users/camhahu/.sentry/bin":$PATH
 export PATH="$HOME/.cargo/bin:$PATH"
 
 if command -v wt >/dev/null 2>&1; then eval "$(command wt config shell init zsh)"; fi
+
+# bun
+export BUN_INSTALL="$HOME/.bun"
+export PATH="$BUN_INSTALL/bin:$PATH"
