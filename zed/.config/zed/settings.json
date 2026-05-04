@@ -1,6 +1,9 @@
 // Zed settings
 {
   // The name of the Zed theme to use for the UI
+  "session": {
+    "trust_all_worktrees": true
+  },
   "format_on_save": "off",
   "icon_theme": "Material Icon Theme",
   "theme": "VSCode Dark Polished",
